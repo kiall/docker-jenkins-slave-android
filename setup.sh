@@ -29,7 +29,7 @@ rm -f android-sdk.tgz
 chown -R root:root android-sdk-linux
 
 echo "===> Update Android SDK..."
-/opt/tools/android-accept-licenses.sh "android update sdk --all --force --no-ui --filter tools,platform-tools,build-tools-24.0.0,android-24,extra-google-google_play_services,extra-google-m2repository,extra-android-m2repository,sys-img-x86-android-tv-24"
+/opt/tools/android-accept-licenses.sh "android update sdk --all --force --no-ui --filter tools,platform-tools,build-tools-24.0.1,android-24,extra-google-google_play_services,extra-google-m2repository,extra-android-m2repository,sys-img-x86-android-tv-24"
 
 echo "===> Clean up apt caches..."
 apt-get clean

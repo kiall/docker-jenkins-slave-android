@@ -23,7 +23,7 @@ apt-get install -y --force-yes expect git wget libc6-i386 lib32stdc++6 lib32gcc1
 
 echo "===> Install Android SDK..."
 cd /opt
-wget -o android-sdk.tgz --quiet http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz
+wget -O android-sdk.tgz http://dl.google.com/android/android-sdk_r24.4.1-linux.tgz
 tar xzf android-sdk.tgz
 rm -f android-sdk.tgz
 chown -R root:root android-sdk-linux
